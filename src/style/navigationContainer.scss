@@ -1,0 +1,73 @@
+.banner{
+    background-color: $darkblue;
+    height: 100%;
+}
+
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+.left-side,
+.right-side {
+    color: $darkgray;
+
+.phone-image{
+    padding: 15px;
+}
+
+    .phone-number{
+    font-size: 20px;
+    }
+
+    .hours{
+        font-size: 15px;
+        text-transform: uppercase;
+    }
+
+    .address{
+        font-size: 15px;
+        text-align: right;
+        padding: 15px;
+
+    }
+
+    .location-icon{
+        padding: 15px;
+
+    }
+}
+
+.left-side{
+        display: flex;
+        justify-content: left;
+        align-items: center;
+}
+
+.logo img{
+    height: 200px;
+    width: 200px;
+    align-items: center;
+}
+
+.right-side{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+}
+
+.nav-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.nav-link-wrapper .NavLink{
+    text-decoration: none;
+    color: $lightgray;
+    font-size: 15px;
+}
