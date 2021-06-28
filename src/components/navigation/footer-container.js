@@ -2,6 +2,9 @@ import React from "react";
 import { withRouter } from "react-router";
 import { NavLink } from "react-router-dom";
 
+import logoImg from "../../../static/assets/images/logos/decamp-fantastic-fries-logo-white.png"
+
+
 const FooterComponent = (props) => {
     const dynamicLink = (route, linkText) => {
         return (
@@ -17,11 +20,14 @@ const FooterComponent = (props) => {
     <div className="footer-wrapper">
     <div className="banner">
             <div className="logo">
-                logo
+                <img src={logoImg}/>
                 </div>
                 <div className="information">
-                phone number
-                hours
+                    <div className="phone-number">
+                        555 555 5555
+                        </div>
+                        <div className="hours"
+>10 am - midnight</div>
                 </div>
                 </div>
             
@@ -55,9 +61,15 @@ const FooterComponent = (props) => {
                 </div>
 
 <div className="bottom">
+    <div className="ig">
     Instagram
+    </div>
+    <div className="tw">
     Twitter
+    </div>
+    <div className="fb">
     Facebook
+    </div>
     </div>
 
 <div className="copyright">

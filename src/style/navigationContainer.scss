@@ -46,9 +46,10 @@
 }
 
 .logo img{
-    height: 200px;
-    width: 200px;
-    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 15rem;;
 }
 
 .right-side{
@@ -66,7 +67,7 @@
     text-align: center;
 }
 
-.nav-link-wrapper .NavLink{
+.nav-link-wrapper a{
     text-decoration: none;
     color: $lightgray;
     font-size: 15px;
