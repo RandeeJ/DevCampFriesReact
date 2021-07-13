@@ -1,0 +1,55 @@
+.pageHeader{
+    // background-image: url("../../static/assets/images/background/about-us.jpg");
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transform: skewY(-6deg);
+    transform-origin: top left;
+    filter: brightness(50%);
+}
+
+.pageHeaderContent{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pageTitle{
+    background-color: $gold;
+    color: $darkblue;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    width: 175px;
+    padding: 10px;
+    margin-left: 250px;
+    text-align: center;
+    font-family: $devcampfont;
+    font-size: 40px;
+
+}
+
+.nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-link-wrapper{
+    width: 70px;
+    text-align: center;
+
+    a{
+        font-family: "Ubuntu COndensed", sans-serif;
+        color: #cbcbcb;
+        text-decoration: none;
+        transition: 0.5s;
+    }
+}
+

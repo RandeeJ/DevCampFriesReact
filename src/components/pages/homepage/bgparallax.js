@@ -4,6 +4,7 @@ import parallaximage from "../../../../static/assets/images/background/fries-her
 
 
 
+
 const ParallaxImage = () => (
     <div>
       <Parallax bgImage={parallaximage} className="bgparallax" strength={500}>

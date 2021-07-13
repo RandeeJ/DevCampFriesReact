@@ -1,0 +1,17 @@
+.aboutPage {
+    display: flex;
+    flex-direction: column;
+    padding-top: 700px;
+    }
+
+.aboutContentSummary{
+    font-family: $devcampfont;
+}
+
+.aboutContentGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
