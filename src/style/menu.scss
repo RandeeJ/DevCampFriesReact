@@ -1,1 +1,25 @@
+.menu-title{
+    background: $darkblue;
+    color: $lightgray;
+    text-align: center;
+}
 
+.menu-button-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: $gold;
+}
+
+.menu-button{
+    height: 3em;
+    padding: 10px;
+    font-family: $devcampfont;
+    font-size: 30px;
+    font-weight: 600;
+    border-radius: 25px;
+    color: $gold;
+    border: 12px solid $darkblue;
+}

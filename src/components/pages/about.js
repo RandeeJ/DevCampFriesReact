@@ -21,10 +21,10 @@ export default function() {
     // this.pageTitle = "About Us";
 
     return (
-        <div className="aboutPage">
+        <div className="aboutPage" bgImage={aboutBackground}>
 
 
-            <div className="aboutHeader">
+            <div className="aboutHeader" >
                 <Header />
             </div>
 
